@@ -26,6 +26,9 @@ jobs:
           echo "📦 Instalando dependencias del requirements.txt"
           pip install -r requirements.txt
 
+      - name: Install Playwright browsers          # ← nuevo paso
+        run: python -m playwright install --with-deps
+
       - name: Run Playwright tests
         run: python -m pytest -n auto
         env:
