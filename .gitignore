@@ -1,3 +1,9 @@
 # Archivos de variables locales
 .env*
 !.env.example   # se versióna solo la plantilla vacía
+
+# Reportes HTML locales
+reports/*.html
+
+# Archivos compilados de Python
+__pycache__/

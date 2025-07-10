@@ -15,3 +15,5 @@ def test_login_exitoso(page: Page):
     expect(page.get_by_text("Swag Labs")).to_be_visible()
 
     # ---------------------
+#Jonathan Gonzalez
+# Este test verifica que el login en "Swag Labs" funcione correctamente.

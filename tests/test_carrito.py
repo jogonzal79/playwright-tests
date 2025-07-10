@@ -7,3 +7,6 @@ def test_agregar_producto(pagina_logueada):
 
     # 2) Verifico que el carrito marque “1”
     expect(pagina_logueada.locator(".shopping_cart_badge")).to_have_text("1")
+
+#Jonathan Gonzalez
+# Este test verifica que al agregar un producto al carrito, el contador se actualice correctamente.
