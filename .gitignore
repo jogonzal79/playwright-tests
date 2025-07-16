@@ -7,3 +7,11 @@ reports/*.html
 
 # Archivos compilados de Python
 __pycache__/
+*.pyc
+
+# Resultados de pruebas de Playwright
+test-results/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
